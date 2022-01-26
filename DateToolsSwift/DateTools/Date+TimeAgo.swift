@@ -186,7 +186,7 @@ public extension Date {
             return self.logicalLocalizedStringFromFormat(format: "%%d%@h", value: components.hour!)
         }
         else if (components.minute! >= 1) {
-            return self.logicalLocalizedStringFromFormat(format: "%%d%@m", value: components.minute!)
+            return self.logicalLocalizedStringFromFormat(format: "%%d%@min", value: components.minute!)
         }
         else if (components.second! >= 3) {
             return self.logicalLocalizedStringFromFormat(format: "%%d%@s", value: components.second!)
